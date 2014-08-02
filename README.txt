@@ -10,10 +10,18 @@ tumblr address. It then checks to see if the generated address exists.
 Best results come from n=2
 
 USAGE
-I suggest running this script from command line:
-python tumblrchecker.py <number>
-Alternatively you can open the script in idle and run it from there. If you do
-so, it will begin by prompting for a number.
+Command-line usage: tumblrchecker.py [-h] [-l] [-n N]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -l          Loop until a valid address is found. If not enabled, stops after
+              the first address (whether successful or not)
+  -n N        Number of words to randomly generate. If not specified, program
+              will prompt user for number of words.
+
+You may also run from the Python IDLE environment. This will supply no arguments,
+so the program will default to asking for a number of words and not looping
+
 
 REQUIREMENTS
 You must have urllib2 and beautifulsoup4 installed. To install them, type the
