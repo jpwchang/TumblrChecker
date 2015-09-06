@@ -24,6 +24,7 @@ so the program will default to asking for a number of words and not looping
 
 
 REQUIREMENTS
+TumblrChecker uses Python 2.7.
 You must have urllib2 and beautifulsoup4 installed. To install them, type the
 following into a command line:
 pip install urllib3
